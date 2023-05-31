@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SimpleShop</title>
+    <meta charset="utf-8" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        * {
+            box-sizing: border-box; 
+        }
+        
+        body {
+            margin: 0;
+            min-width: 992px;
+            font-family: "Helvetica";
+        }
+        
+        /* 네비게이션 바*/
+        .navibar{
+            height: 60px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .navibar #logo{
+            line-height: 60px;
+        }
+
+        .navibar #logo img{
+            vertical-align: middle;
+        }
+
+        /* 헤더 */
+        .header{
+            height: 450px;
+            background-image: url("https://postimg.cc/pm7QkLMy][img]https://i.postimg.cc/pm7QkLMy/hero-header.jpg"); 
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+        
+        .navibar #menu{
+            float: right;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .navibar #menu li{
+            float: left;
+            margin-left:30px;
+            line-height: 60px;
+        }
+
+        .navibar #menu li a{
+            color: #545454;
+            font-size: 13px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        /* hero header */
+        
+        /* products */
+        .products h3{
+            font-size: 24px;
+            color: #545454;
+            text-align: center;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            font-weight: bold;
+        }
+
+        .product{
+            text-align: center;
+            width: 225px;
+            display: block;
+            color: #545454;
+            text-decoration: none;
+            float: left;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .product-name{
+            margin-top: 20px;
+            margin-bottom: 4px;
+        }
+
+        .product-list{
+            width: 735px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        /* footer */
+        .clearfix{
+            clear:both;
+        }
+
+        .footer{
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 80px;
+        }
+
+        .footer a{
+            margin-left: 10px;
+            margin-right: 10px;
+            text-decoration: none;
+        }
+    </style>
+  </head>    
+
+  <body>
+    <div class="navibar">
+        <a href="#" id="logo"> 
+            <img src="https://postimg.cc/kV665QZg][img]https://i.postimg.cc/kV665QZg/logo.png[" alt="logo" height="20">
+        </a>
+
+        <ul id="menu">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Cart</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </div>
+
+    <div class="header"></div>
+
+    <div class="products">
+        <h3>Our New products</h3>
+        <div class="product-list">
+            <a href="#" class="product">
+                <img src="https://postimg.cc/kBJygHyM][img]https://i.postimg.cc/kBJygHyM/sunglasses.jpg" alt="" width="225px">
+                <div class="product-name">Sunglasses</div>
+                <div class="product-price">49,000</div>
+            </a>
+
+            <a href="#" class="product">
+                <img src="https://postimg.cc/hXhb97wH][img]https://i.postimg.cc/hXhb97wH/wrist-watch.jpg" alt="" width="225px">
+                <div class="product-name">Wrist Watch</div>
+                <div class="product-price">99,000</div>
+            </a>
+
+            <a href="#" class="product">
+                <img src="https://postimg.cc/hX3Qgy2Y][img]https://i.postimg.cc/hX3Qgy2Y/beige-bag.jpg" alt="" width="225px">
+                <div class="product-name">Beige Bag</div>
+                <div class="product-price">89,000</div>
+            </a>
+
+            <a href="#" class="product">
+                <img src="https://postimg.cc/BL2jTqJW][img]https://i.postimg.cc/BL2jTqJW/fedora-hat.jpg" alt="" width="225px">
+                <div class="product-name">Fedora Hat</div>
+                <div class="product-price">39,000</div>
+            </a>
+
+            <a href="#" class="product">
+                <img src="https://postimg.cc/CnYzJWKR][img]https://i.postimg.cc/CnYzJWKR/classic-loafer.jpg" alt="" width="225px">
+                <div class="product-name">Classic Loafer</div>
+                <div class="product-price">49,000</div>
+            </a>
+
+            <a href="#" class="product">
+                <img src="https://postimg.cc/4nb5ZGVF][img]https://i.postimg.cc/4nb5ZGVF/pink-bag.jpg" alt="" width="225px">
+                <div class="product-name">Pink Bag</div>
+                <div class="product-price">89,000</div>
+            </a>
+
+            <a href="#" class="product">
+                <img src="https://postimg.cc/tn57c212][img]https://i.postimg.cc/tn57c212/sneakers.jpg" alt="" width="225px">
+                <div class="product-name">Sneakers</div>
+                <div class="product-price">59,000</div>
+            </a>
+
+            <a href="#" class="product">
+                <img src="https://postimg.cc/xc63JPsv][img]https://i.postimg.cc/xc63JPsv/tassel-loafer.jpg" alt="" width="225px">
+                <div class="product-name">Tassel Loafer</div>
+                <div class="product-price">49,000</div>
+            </a>
+
+            <a href="#" class="product">
+                <img src="https://postimg.cc/qgdL9qh3][img]https://i.postimg.cc/qgdL9qh3/slippers.jpg" alt="" width="225px">
+                <div class="product-name">Slippers</div>
+                <div class="product-price">9,000</div>
+            </a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <a href="http://facebook.com">
+            <img src="쇼핑몰/facebook.png" alt="" height="20">
+        </a>
+
+        <a href="http://instagram.com">
+            <img src="쇼핑몰/instagram.png" alt="" height="20">
+        </a>
+
+        <a href="http://twitter.com">
+            <img src="쇼핑몰/twitter.png" alt="" height="20">
+        </a>
+
+    </div>
+  </body>
+</html>
